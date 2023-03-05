@@ -30,3 +30,35 @@ E:\DotNet_6\DotNetSixDemos\Middleware\src\middlewareDemo\obj\Debug\net6.0\refint
 E:\DotNet_6\DotNetSixDemos\Middleware\src\middlewareDemo\obj\Debug\net6.0\middlewareDemo.pdb
 E:\DotNet_6\DotNetSixDemos\Middleware\src\middlewareDemo\obj\Debug\net6.0\middlewareDemo.genruntimeconfig.cache
 E:\DotNet_6\DotNetSixDemos\Middleware\src\middlewareDemo\obj\Debug\net6.0\ref\middlewareDemo.dll
+E:\New folder\DotNetmiddlewareDemo\Middleware\src\middlewareDemo\bin\Debug\net6.0\appsettings.Development.json
+E:\New folder\DotNetmiddlewareDemo\Middleware\src\middlewareDemo\bin\Debug\net6.0\appsettings.json
+E:\New folder\DotNetmiddlewareDemo\Middleware\src\middlewareDemo\bin\Debug\net6.0\middlewareDemo.exe
+E:\New folder\DotNetmiddlewareDemo\Middleware\src\middlewareDemo\bin\Debug\net6.0\middlewareDemo.deps.json
+E:\New folder\DotNetmiddlewareDemo\Middleware\src\middlewareDemo\bin\Debug\net6.0\middlewareDemo.runtimeconfig.json
+E:\New folder\DotNetmiddlewareDemo\Middleware\src\middlewareDemo\bin\Debug\net6.0\middlewareDemo.dll
+E:\New folder\DotNetmiddlewareDemo\Middleware\src\middlewareDemo\bin\Debug\net6.0\middlewareDemo.pdb
+E:\New folder\DotNetmiddlewareDemo\Middleware\src\middlewareDemo\bin\Debug\net6.0\Microsoft.OpenApi.dll
+E:\New folder\DotNetmiddlewareDemo\Middleware\src\middlewareDemo\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\New folder\DotNetmiddlewareDemo\Middleware\src\middlewareDemo\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\New folder\DotNetmiddlewareDemo\Middleware\src\middlewareDemo\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\New folder\DotNetmiddlewareDemo\Middleware\src\middlewareDemo\obj\Debug\net6.0\middlewareDemo.csproj.AssemblyReference.cache
+E:\New folder\DotNetmiddlewareDemo\Middleware\src\middlewareDemo\obj\Debug\net6.0\middlewareDemo.GeneratedMSBuildEditorConfig.editorconfig
+E:\New folder\DotNetmiddlewareDemo\Middleware\src\middlewareDemo\obj\Debug\net6.0\middlewareDemo.AssemblyInfoInputs.cache
+E:\New folder\DotNetmiddlewareDemo\Middleware\src\middlewareDemo\obj\Debug\net6.0\middlewareDemo.AssemblyInfo.cs
+E:\New folder\DotNetmiddlewareDemo\Middleware\src\middlewareDemo\obj\Debug\net6.0\middlewareDemo.csproj.CoreCompileInputs.cache
+E:\New folder\DotNetmiddlewareDemo\Middleware\src\middlewareDemo\obj\Debug\net6.0\middlewareDemo.MvcApplicationPartsAssemblyInfo.cs
+E:\New folder\DotNetmiddlewareDemo\Middleware\src\middlewareDemo\obj\Debug\net6.0\middlewareDemo.MvcApplicationPartsAssemblyInfo.cache
+E:\New folder\DotNetmiddlewareDemo\Middleware\src\middlewareDemo\obj\Debug\net6.0\staticwebassets\msbuild.middlewareDemo.Microsoft.AspNetCore.StaticWebAssets.props
+E:\New folder\DotNetmiddlewareDemo\Middleware\src\middlewareDemo\obj\Debug\net6.0\staticwebassets\msbuild.build.middlewareDemo.props
+E:\New folder\DotNetmiddlewareDemo\Middleware\src\middlewareDemo\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.middlewareDemo.props
+E:\New folder\DotNetmiddlewareDemo\Middleware\src\middlewareDemo\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.middlewareDemo.props
+E:\New folder\DotNetmiddlewareDemo\Middleware\src\middlewareDemo\obj\Debug\net6.0\staticwebassets.pack.json
+E:\New folder\DotNetmiddlewareDemo\Middleware\src\middlewareDemo\obj\Debug\net6.0\staticwebassets.build.json
+E:\New folder\DotNetmiddlewareDemo\Middleware\src\middlewareDemo\obj\Debug\net6.0\staticwebassets.development.json
+E:\New folder\DotNetmiddlewareDemo\Middleware\src\middlewareDemo\obj\Debug\net6.0\scopedcss\bundle\middlewareDemo.styles.css
+E:\New folder\DotNetmiddlewareDemo\Middleware\src\middlewareDemo\obj\Debug\net6.0\middlewareDemo.csproj.CopyComplete
+E:\New folder\DotNetmiddlewareDemo\Middleware\src\middlewareDemo\obj\Debug\net6.0\middlewareDemo.dll
+E:\New folder\DotNetmiddlewareDemo\Middleware\src\middlewareDemo\obj\Debug\net6.0\refint\middlewareDemo.dll
+E:\New folder\DotNetmiddlewareDemo\Middleware\src\middlewareDemo\obj\Debug\net6.0\middlewareDemo.pdb
+E:\New folder\DotNetmiddlewareDemo\Middleware\src\middlewareDemo\obj\Debug\net6.0\middlewareDemo.genruntimeconfig.cache
+E:\New folder\DotNetmiddlewareDemo\Middleware\src\middlewareDemo\obj\Debug\net6.0\ref\middlewareDemo.dll
