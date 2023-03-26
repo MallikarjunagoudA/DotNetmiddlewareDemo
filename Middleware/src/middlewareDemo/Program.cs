@@ -14,9 +14,15 @@ builder.Services.AddTransient<FactoryMiddleware>();
 builder.Services.AddSingleton<IMiddleware,FactoryMiddleware>();
 builder.Services.AddSingleton<DummyInterface, Dummy>();
 
+builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+
+//to get the request and response. the http context is the global variable which holds the instance of request and response objects
+builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+
 // the above the builder.build for register the services
 var app = builder.Build();
 // The below builder.build for register middleware
+
 
 #region inline middleware , comment this region to check other region and vs is true
 //** Inline Middleware
@@ -80,7 +86,11 @@ var app = builder.Build();
 #endregion
 
 #region Unhandled middleware
-app.UseMiddleware<UnHandledMiddleware>();
+//app.UseMiddleware<UnHandledMiddleware>();
+#endregion
+
+#region correlation middleware
+app.UseMiddleware<CoRelationalMiddleware>();
 #endregion
 
 // Configure the HTTP request pipeline.
