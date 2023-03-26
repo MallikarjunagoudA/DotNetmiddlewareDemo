@@ -17,6 +17,7 @@ namespace middlewareDemo.Controllers
 
         [HttpGet]
         public IActionResult Get()
+        
         {
             throw new Exception("test exception");
         }

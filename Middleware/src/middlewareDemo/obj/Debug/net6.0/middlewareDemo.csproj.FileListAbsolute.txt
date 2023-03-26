@@ -62,3 +62,4 @@ E:\New folder\DotNetmiddlewareDemo\Middleware\src\middlewareDemo\obj\Debug\net6.
 E:\New folder\DotNetmiddlewareDemo\Middleware\src\middlewareDemo\obj\Debug\net6.0\middlewareDemo.pdb
 E:\New folder\DotNetmiddlewareDemo\Middleware\src\middlewareDemo\obj\Debug\net6.0\middlewareDemo.genruntimeconfig.cache
 E:\New folder\DotNetmiddlewareDemo\Middleware\src\middlewareDemo\obj\Debug\net6.0\ref\middlewareDemo.dll
+E:\New folder\DotNetmiddlewareDemo\Middleware\src\middlewareDemo\bin\Debug\net6.0\middlewareDemo.staticwebassets.runtime.json

@@ -19,6 +19,28 @@ builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
 //to get the request and response. the http context is the global variable which holds the instance of request and response objects
 builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
 
+//adding service to create the policy for the cors
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("Dev-env-policy", builder =>
+    {
+        builder
+                .AllowAnyOrigin() //Access-control-allow-origin: *
+                .AllowAnyHeader() //Access-control-allow-Header: *
+                .AllowAnyMethod(); // for allowing unsafe requests Access-control-allow-origin: *
+    });
+});
+
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("Prod-env-policy", builder =>
+    {
+        builder
+                .WithOrigins("https://www.google.com/")
+                .WithMethods("GET", "POST", "PUT", "DELETE");
+    });
+});
+
 // the above the builder.build for register the services
 var app = builder.Build();
 // The below builder.build for register middleware
@@ -86,19 +108,39 @@ var app = builder.Build();
 #endregion
 
 #region Unhandled middleware
-//app.UseMiddleware<UnHandledMiddleware>();
+app.UseMiddleware<UnHandledMiddleware>();
 #endregion
 
 #region correlation middleware
-app.UseMiddleware<CoRelationalMiddleware>();
+//app.UseMiddleware<CoRelationalMiddleware>();
 #endregion
 
+#region cors middleware
+//cors middleware
+/*
+ * optionally attach the middleware based on the evn
+ */
+if (app.Environment.IsDevelopment())
+{
+    app.UseCors("Dev-env-policy");
+}
+
+if (app.Environment.IsProduction())
+{
+    app.UseCors("Prod-env-policy");
+}
+
+
+#endregion
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+// used to access the wwwroot folder contents publicly.
+app.UseStaticFiles();
 
 app.UseHttpsRedirection();
 

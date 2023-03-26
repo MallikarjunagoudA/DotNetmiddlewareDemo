@@ -1,11 +1,37 @@
 {
   "Version": 1,
-  "Hash": "xfurBaRPHhb51TtEmGwif1smwebcDGpEqT/jz17E0Xg=",
+  "Hash": "3B9b/o3dr/Vo0tGykINVq0nES0MyupzlLS7tr2kcy/o=",
   "Source": "middlewareDemo",
   "BasePath": "_content/middlewareDemo",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "middlewareDemo\\wwwroot",
+      "Source": "middlewareDemo",
+      "ContentRoot": "E:\\New folder\\DotNetmiddlewareDemo\\Middleware\\src\\middlewareDemo\\wwwroot\\",
+      "BasePath": "_content/middlewareDemo",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "E:\\New folder\\DotNetmiddlewareDemo\\Middleware\\src\\middlewareDemo\\wwwroot\\html\\htmlpage.html",
+      "SourceId": "middlewareDemo",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\New folder\\DotNetmiddlewareDemo\\Middleware\\src\\middlewareDemo\\wwwroot\\",
+      "BasePath": "_content/middlewareDemo",
+      "RelativePath": "html/htmlpage.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\html\\htmlpage.html"
+    }
+  ]
 }
